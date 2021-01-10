@@ -1,0 +1,303 @@
+/*==================================================
+            Default values
+
+    Fonts;
+            Calistoga:(for headings)
+            Roboto: (for body- style= Regular 400)
+            Awesome Fonts
+    
+    Colors: 
+            Sizzling Red: #f53b57;
+            Really dark blue:#181e2c;
+            Really light Blue:#e5ebf8;
+==================================================*/
+
+/*-------------------------------------
+        Basic Setup
+---------------------------------------*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+body{
+    
+}
+
+body h1,
+body h2,
+body h3{
+    
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/*-------------------------------------
+       Header Section
+---------------------------------------*/
+
+header{
+    width: 100%;
+    background-color: #181e2c;
+    
+  
+}
+.header-div{
+    max-width:1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+
+    
+}
+
+.header-div h1{
+    color: #e5ebf8;
+    font-size: 35px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+   
+}
+
+.nav-menu a{
+    color: #e5ebf8;
+    padding: 20px 30px;
+    font-size: 21px;
+    transition: all .3s ease-in-out;
+    
+    
+}
+
+.nav-menu a:hover{
+    background-color: #f53b57;
+   border-radius: 5px;
+}
+
+
+/*-------------------------------------
+       Header-picture Section
+---------------------------------------*/
+.header-picture{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/2.jpg);
+    height: 60vh;
+    width: 100%;
+    color: #e5ebf8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.header-picture h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    padding-bottom: 10px;
+}
+
+.header-picture h3{
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+/*-------------------------------------
+       Header-picture Section
+---------------------------------------*/
+.about-me{
+    max-width: 1400px;
+    text-align: center;
+    margin: 70px auto;
+}
+ .about-me img{
+    border: 4px solid transparent;
+    border-radius: 5px;
+    filter: grayscale(100%);
+    margin-bottom: 30px;
+    transition: all .3s ease-in-out;
+}
+
+.about-me img:hover{
+    filter: grayscale(0);
+    border-radius: 50%;
+}
+
+.about-me h2{
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 500; 
+    
+}
+
+.about-me h3{
+    color: #f53b57;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 30px 0 30px 0;
+}
+.about-me p{
+    max-width: 98%;
+    margin: 0 auto;
+    font-size: 20px
+}
+
+/*-------------------------------------
+       Ability Section
+---------------------------------------*/
+
+.abilities{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.ability{
+    text-align: center;
+    width: 32%;
+    margin-right: 50px;
+}
+
+.ability:last-child{
+    margin-right: 0;
+}
+
+.ability i{
+    color: #f53b57;
+    font-size: 80px;
+    margin-bottom: 20px;
+   
+}
+
+.ability h2{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.ability p{
+    text-align: center;
+}
+
+/*-------------------------------------
+       Work Section
+---------------------------------------*/
+.works{
+    max-width: 100%;
+    background-color: #181e2c;
+    margin-top: 70px;
+    padding:70px 0;
+    
+}
+
+.works h2{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #e5ebf8;
+    font-size: 40px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    text-shadow: 0px 2px 1px #e5ebf8;
+}
+.work-picture{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.work-picture img{
+    width: 32%;
+    margin: 1% 0;
+    cursor: pointer;
+}
+
+/*-------------------------------------
+       Contact Section
+---------------------------------------*/
+.contact-me{
+    width: 100%;
+    background-color: #f53b57;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.contact-me h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    color:#e5ebf8;
+    padding: 70px 0;
+    font-weight: 700;
+}
+#name,
+#mail,
+#msg{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #e5ebf8;
+    border-radius: 6px;
+    border: 2px solid #181e2c;
+    font-size: 18px;
+  
+}
+#name:focus,
+#mail:focus,
+#msg:focus{
+    background-color: #181e2c;
+     border: 2px solid #e5ebf8;
+     color:  #e5ebf8;
+}
+#msg{
+    resize: none;
+           
+}
+#submit-btn{
+    width: 100%;
+    padding: 10px 0;
+    border: 2px solid  #e5ebf8;
+    border-radius: 10px;
+    font-size: 22px;
+    color:  #e5ebf8;
+    background-color:  #f53b57;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    
+}
+#submit-btn:hover{
+    background-color:  #e5ebf8;
+    color:#f53b57;
+    transform: scale(0.95);
+}
+
+/*-------------------------------------
+       Work Section
+---------------------------------------*/
+footer{
+    background-color:  #181e2c;
+    color: #e5ebf8;
+    text-align: center;
+    font-size: 17px;
+    padding: 15px
+}

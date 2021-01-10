@@ -1,0 +1,146 @@
+/*==============================
+        Media Query
+===============================*/
+@media all and (max-width:1200px) {
+    /*Everything acceptable*/
+}
+
+
+
+@media all and (max-width:991px) {
+    .header-div h1 {
+        font-size: 25px;
+    }
+
+    .nav-menu a {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .header-picture h2 {
+        font-size: 25px;
+    }
+
+    .header-picture h3 {
+        font-size: 20px
+    }
+
+    .about-me img {
+        width: 30%;
+        margin: 15px;
+        
+
+    }
+
+    .about-me h2 {
+        font-size: 25px
+    }
+
+
+    .about-me h3 {
+        font-size: 20px;
+        padding: 15px auto;
+    }
+
+    .about-me p {
+        max-width: 900px;
+        margin: 0 auto;
+        font-size: 17px;
+        text-align: center;
+    }
+
+
+    .abilities {
+        flex-direction: column;
+        margin-right: 0;
+        align-items: center;
+
+    }
+
+    .container {
+        max-width: 900px;
+    }
+
+    .ability {
+        width: 100%;
+        margin-right: 0;
+
+    }
+
+    .ability i {
+        font-size: 50px;
+        margin-top: 25px;
+    }
+
+
+    .ability h2 {
+        font-size: 25px;
+
+    }
+
+    .ability p {
+
+        text-align: center;
+        width: 95%
+    }
+
+    .works {
+        max-width: 900px;
+        margin-top: 40px;
+        padding: 40px 0
+    }
+
+    .works h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .work-picture img {
+        width: 48%;
+        margin: 1%;
+
+    }
+    
+    .contact-me h2 {
+        font-size: 30px;
+    }
+    
+    
+    #name, #mail, #msg {
+        font-size: 16px;
+        margin-bottom: 20px;
+        padding: 8px;
+    }
+    
+    #submit-btn {
+        font-size: 17px
+    }
+}
+
+
+
+
+
+@media all and (max-width:768px) {
+    /*Everything acceptable*/
+    
+}
+
+@media all and (max-width:480px) {
+    .header-div{
+        flex-direction: column;
+        
+    }
+    
+    .nav-menu {
+        margin-top: 20px;
+    }
+    .work-picture img {
+        width: 98%;
+    }
+    
+}
+
+@media all and (max-width:320px) {
+    /*Everything Acceptable*/
+}
